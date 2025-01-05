@@ -30,6 +30,7 @@ When designing the service, you might have the following questions:
 
 Below are some requirements for the service:
 - Needs to be written in Python since that is what the team uses
+- Needs to run on GCP GKE since that is what the company uses
 - Needs to report how many images have highs and critical in-use packages out of the total number of images.
 - Needs to rerun/update every hour in order for devs to have quick feedback once making changes
 - Needs to capture running containers as well as cronjobs that might not be currently running
@@ -105,6 +106,12 @@ In a GCP GKE environment you might end up creating the following resources via C
 - bigquery table
   - Must be an external table and avoid using auto-detect for the schema 
 
+In addition to the GCP resources above, you'll need to create the following k8s resources:
+- role
+- role-binding
+- service-account
+- cronjob
+  - this contains the python container
 
 ## Visualizing the Data
 ### BigQuery
