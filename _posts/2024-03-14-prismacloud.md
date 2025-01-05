@@ -12,9 +12,9 @@ tag:
 star: false
 category: blog
 author: masondenney
-description: Prisma Cloud and Bridgecrew
+description: Prisma Cloud and Bridgecrew Training
 ---
-# Prisma Cloud and Bridgecrew
+# Prisma Cloud and Bridgecrew Training
 ## Prisma Cloud
 Palo Alto Prisma Cloud is currently offering workshops for prospective customers at <https://www.paloaltonetworks.com/prisma/cloud-interactive>. These workshops start with a sales pitch and end with a hands-on self-guided workshop. The the instructions for the workshops are at <https://github.com/PaloAltoNetworks/prisma-cloud-bootcamps> which I forked into a personal repo at <https://github.com/MasonDenney/prisma-cloud-bootcamps>.
 
